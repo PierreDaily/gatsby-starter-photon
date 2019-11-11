@@ -10,7 +10,7 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Gatsby Starter - Photon";
+        const siteTitle = "Innvo HR";
 
         return (
             <Layout>
@@ -20,10 +20,9 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Why us ?</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+                            <p>First of all, congratulation to your success that you finally made your business grown up to a team.  To devote your time 100% to your own business, it is essential to have someone clear your in-tray and solve the HR matters for you.  Here are the reasons why you need our help.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
@@ -44,13 +43,14 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-6">
-                            <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
-                            </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            {/* <header className="major"> */}
+                                <h3>Cost saving</h3>
+                            {/* </header> */}
+                            <p>You will probably save HK$18K – HK$48K for outsourcing HR-related matters instead of hiring an HR professional or HR Manager.</p>
+                                <h3>Time saving</h3>
+                                <p>Do you know how much time you will engage in monthly payroll, managing leave record, maintenance of personal files, regular filing to different government departments, etc.  It could take ages to complete.  Instead of costing HK$10-15K to let other people to do, why not leave those dirty works to us at a much lower cost ?</p>
+                                <h3>Too busy to keep up with newest regulations ?</h3>
+                                <p>We always make sure there is no chance you will breach the law and facing lawsuit by employees. We’ll keep watching out for your company and be your moat to keep away from any legal issues.</p>
                         </div>
                     </div>
                 </section>
@@ -59,49 +59,43 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>What we do ?</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
                         </div>
 
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Recruitment {'&'} Selection</h3>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li>Visa Application Services</li>
+                                <li>Screen resumes</li>
+                                <li>Reference check</li>
+                                <li>Select candidates for the first interview</li>
+                                <li>Conduct first interview</li>
+                                <li>Arrange second interview for clients</li>
+                                <li>Preparation of employment contract</li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Payroll Management Services</h3>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li>Calculate monthly payrols</li>
+                                <li>Arrange salary payments</li>
+                                <li>Prepare pay slips</li>
+                                <li>Setup salary auto-pay accounts</li>
+                                <li>Process monthly MPF subscription and management</li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Visa Application Services</h3>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li>Proceed work visa application for main applicant</li>
+                                <li>Initial review of applicant's profile</li>
                             </ul>
                         </div>
 
-                    </div>
-                </section>
-
-                <section id="four" className="main style2 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
-                        </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
-                        <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
                     </div>
                 </section>
             </Layout>

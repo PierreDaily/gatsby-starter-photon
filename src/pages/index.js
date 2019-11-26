@@ -3,10 +3,10 @@ import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import picHR from '../assets/images/hr.png'
+import picPayroll from '../assets/images/payroll.jpg' 
+import picRecruitment from '../assets/images/recruitment.jpg'
+import picVisa from '../assets/images/visa.png'
 
 class Homepage extends React.Component {
     render() {
@@ -25,7 +25,7 @@ class Homepage extends React.Component {
                             <p>First of all, congratulation to your success that you finally made your business grown up to a team.  To devote your time 100% to your own business, it is essential to have someone clear your in-tray and solve the HR matters for you.  Here are the reasons why you need our help.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <span className="image fit"><img src={picHR} alt="" /></span>
                         </div>
                     </div>
                 </section>
@@ -64,7 +64,7 @@ class Homepage extends React.Component {
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
+                            <span className="image fit"><img src={picRecruitment} alt="" /></span>
                             <h3>Recruitment {'&'} Selection</h3>
                             <ul className="actions">
                                 <li>Visa Application Services</li>
@@ -77,7 +77,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
+                            <span className="image fit"><img src={picPayroll} alt="" /></span>
                             <h3>Payroll Management Services</h3>
                             <ul className="actions">
                                 <li>Calculate monthly payrols</li>
@@ -88,7 +88,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
+                            <span className="image fit"><img src={picVisa} alt="" /></span>
                             <h3>Visa Application Services</h3>
                             <ul className="actions">
                                 <li>Proceed work visa application for main applicant</li>
